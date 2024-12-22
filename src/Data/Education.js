@@ -1,5 +1,5 @@
 import uvic from '../assets/career/uvic-logo.jpg';
-import bs from '../assets/career/Brainstation Logo.png';
+import bs from '../assets/career/BrainStation_Brain_Black.png';
 
 const education = [
     {
