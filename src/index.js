@@ -5,9 +5,9 @@ import App from './App';
 import { SocialProvider } from './SocialContext';
 
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
 console.log("testing for clo")
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
   <React.StrictMode>
     <SocialProvider>
