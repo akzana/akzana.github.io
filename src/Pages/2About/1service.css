@@ -48,7 +48,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* Öğeleri dikey olarak üstten hizalar */
+  justify-content: flex-end;
 }
 
 .service-content-box {

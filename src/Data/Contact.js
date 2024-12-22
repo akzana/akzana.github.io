@@ -17,7 +17,7 @@ const contact = [
     },
     {
       title: 'Motivation',
-      value: 'User Dignity, Innovation, Teamwork',
+      value: 'User Dignity, Innovation',
       icon: <FaFire size={25}/>
     },
     {

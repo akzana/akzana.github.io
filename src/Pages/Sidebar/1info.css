@@ -246,6 +246,7 @@ article {
 
     .info-content .title {
         margin: auto;
+        background: hsla(240, 82%, 9%, 0.51);
     }
 
     .info_more-btn {

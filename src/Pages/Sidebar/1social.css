@@ -10,9 +10,9 @@
 
 .social-item {
   position: relative;
-  list-style: none; /* Listenin işaretlerini kaldırın */
-  width: 75px; /* İkon genişliği */
-  height: 75px; /* İkon yüksekliği */
+  list-style: none; 
+  width: 75px; 
+  height: 75px; 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,13 +21,14 @@
 
 
 .social-link {
-  color: var(--light-gray-70);
+  background-color: #ffffff3d;
   font-size: 18px;
   display: block;
   position: relative;
   overflow: hidden;
   width: 100%;
   height: 100%;
+  border-radius: 20%;
 }
 
 

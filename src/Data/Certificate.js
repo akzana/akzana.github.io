@@ -22,7 +22,7 @@ const certificate = [
     {
         photo: init,
         name: "Google Project Initiation",
-        category: "Prokect Management",
+        category: "Project Management",
     },
 
 ]

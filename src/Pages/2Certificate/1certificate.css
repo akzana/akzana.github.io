@@ -35,11 +35,11 @@
   .certificate-title {
     font-size: 1.2em;
     margin: 10px;
-    color: var(--vegas-gold);
+    color: rgba(255, 255, 255, 0.556);
   }
   
   .certificate-category {
-    color: #7b7a7a;
+    color: #a5ddd8;
     margin: 0 10px 10px;
   }
   

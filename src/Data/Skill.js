@@ -13,7 +13,7 @@ const skillsData = [
   'Canva',
   'Sass',
   "Jira",
-  "ViteJS"
+  "ViteJS",
 ]
 
 export { skillsData };

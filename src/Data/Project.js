@@ -29,7 +29,7 @@ const project = [
     property: ['A toilet-sink combination, self-contained waste management system.',
       'Working with Island Health and the Nurses and Nurse Practitioners of BC to design a product that meets the needs of the patients.',],
     date: 'MAR 2023',
-    link: 'https://github.com/akzana/frog-stream-capstone',
+    // link: 'https://github.com/akzana/frog-stream-capstone',
     learn: ['Project management and agile development.',
       'Time, cost, scope management.',
       'Product ownership.',

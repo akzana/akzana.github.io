@@ -1,14 +1,15 @@
-
-.projects { margin-bottom: 10px; }
+.projects {
+    margin-bottom: 10px;
+}
 
 .projects-list {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
 }
 
 .projects-item {
-    padding:20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     border-radius: 16px;
@@ -19,7 +20,8 @@
 .projects-avatar-box {
     margin-left: 10px;
     display: flex;
-    gap:15px;
+    flex-wrap: wrap;
+    gap: 15px;
     justify-content: start;
     align-items: center;
     position: relative;
@@ -31,7 +33,7 @@
 }
 
 .projects-item-title {
-    color: var(--vegas-gold);
+    color: #89b848;
     font-size: 22px;
     font-weight: 600;
     text-transform: capitalize;
@@ -48,13 +50,9 @@
 .project-detail-info {
     display: flex;
     justify-content: end;
-    margin-top:15px;
+    margin-top: 15px;
     color: var(--light-gray-70);
     font-size: var(--fs-6);
     font-weight: var(--fw-300);
     line-height: 1.6;
 }
-
-
-
-

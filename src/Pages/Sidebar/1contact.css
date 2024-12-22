@@ -18,11 +18,8 @@
     width: 35px;
     height: 35px;
     display: flex;
-    /* Flexbox kullanarak içeriği ortalamak için eklenmiştir */
     justify-content: center;
-    /* Yatayda ortala */
     align-items: center;
-    /* Dikeyde ortala */
     border-radius: 8px;
     border: 3px solid var(--vegas-gold);
 }
@@ -55,19 +52,19 @@
     color: var(--orange-yellow-crayola);
     box-shadow: var(--shadow-1);
     z-index: 1;
-  
-  }
+
+}
 
 
 @media (min-width: 200px) {
     .contacts-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center; /* Yatayda ortala */
-        align-items: center; /* Dikeyde ortala */
+        justify-content: center;
+        align-items: center;
         gap: 15px;
         padding: 0px 15px;
-      }
+    }
 
 }
 
@@ -76,11 +73,11 @@
     .contacts-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center; /* Yatayda ortala */
-        align-items: center; /* Dikeyde ortala */
+        justify-content: center;
+        align-items: center;
         gap: 15px;
         padding: 0px 15px;
-      }
+    }
 
 }
 
@@ -89,18 +86,18 @@
     .contacts-list {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        justify-content: center; /* Yatayda ortala */
-        align-items: center; /* Dikeyde ortala */
+        justify-content: center;
+        align-items: center;
         gap: 15px;
         padding: 0px 15px;
-      }
+    }
 
 }
 
 
 @media (min-width: 1250px) {
-    .contacts-list { 
+    .contacts-list {
         grid-template-columns: 1fr;
-      }
+    }
 
 }
