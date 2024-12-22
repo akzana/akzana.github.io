@@ -1,0 +1,160 @@
+.social-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+}
+
+.social-item {
+  position: relative;
+  list-style: none; 
+  width: 75px; 
+  height: 75px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.social-link {
+  background-color: #ffffff3d;
+  font-size: 18px;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 20%;
+}
+
+
+
+.social-link img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Dönme efekti için geçiş efekti */
+}
+
+
+
+.social-back {
+  border-radius: 15px;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  width: 84%;
+  height: 84%;
+  background-color: #228be6; /* Mavi buton rengi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg); /* Başlangıçta dönmüş olarak başlasın */
+  transition: transform 0.4s ease; /* Dönme efekti için geçiş efekti */
+  backface-visibility: hidden; /* Arka yüzü gizle */
+}
+
+.social-back.copied {
+  border-radius: 15px;
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  width: 84%;
+  height: 84%;
+  background-color: #419b45; /* Mavi buton rengi */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg); /* Başlangıçta dönmüş olarak başlasın */
+  transition: transform 0.3s ease; /* Dönme efekti için geçiş efekti */
+  backface-visibility: hidden; /* Arka yüzü gizle */
+}
+
+
+
+.social-item-h {
+  position: relative;
+  list-style: none; 
+  width: 75px; 
+  height: 75px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.flip-card-front img {
+  width: 72px;
+  height:  72px;
+  object-fit: cover;
+}
+
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #2980b9;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotateY(180deg);
+  border-radius: 15px; /* Border radius for the back */
+}
+
+.flip-card-back.copied {
+  background-color: #419b45; /* Green background when copied */
+}
+
+
+.card-button {
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px; /* Border radius for the button */
+}

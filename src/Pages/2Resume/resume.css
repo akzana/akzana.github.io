@@ -1,0 +1,169 @@
+/**
+ * education and experience 
+ */
+
+.timeline {
+    margin-bottom: 30px;
+}
+
+.timeline .title-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.timeline-list {
+    font-size: var(--fs-6);
+    margin-left: 45px;
+}
+
+.timeline-item {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.spacer {
+    margin-bottom: 30px;
+}
+
+.icon-box {
+    background-color: red;
+    width: 48px;
+    height: 48px;
+    border-radius: 12px;
+    border: 2px solid var(--vegas-gold);
+    font-size: 18px;
+    position: relative;
+    background: var(--border-gradient-onyx);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orange-yellow-crayola);
+    box-shadow: var(--shadow-1);
+    z-index: 1;
+}
+
+/* .icon-box::before {
+    content: "";
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--vegas-gold);
+    inset: 1px;
+    background: var(--eerie-black-1);
+    border-radius: inherit;
+    z-index: -1;
+  } */
+
+.item-header {
+    padding-left: 10px;
+    display: flex;
+    gap: 30px;
+    /* Fotoğraf ve bilgi grubu arasındaki boşluk */
+    margin-bottom: 10px;
+}
+
+.item-image {
+    background-color: white;
+    border: 4px solid var(--vegas-gold);
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Grupların dikeyde ortalanması */
+}
+
+
+.timeline-item-title {
+    font-size: var(--fs-6);
+    line-height: 1.3;
+    margin-bottom: 7px;
+}
+
+.timeline-list span {
+    color: var(--light-gray);
+    font-weight: var(--fw-400);
+    line-height: 1.6;
+}
+
+.timeline-item:not(:last-child)::before {
+    content: "";
+    position: absolute;
+    top: -25px;
+    left: -30px;
+    width: 1px;
+    height: calc(100% + 50px);
+    background: var(--jet);
+}
+
+.timeline-item::after {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -33px;
+    height: 6px;
+    width: 6px;
+    background: var(--text-gradient-yellow);
+    border-radius: 50%;
+    box-shadow: 0 0 0 4px var(--jet);
+}
+
+.timeline-text {
+    color: var(--light-gray);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+}
+
+
+@media (min-width: 580px) {
+
+    /**
+   * #RESUME
+   */
+
+    .timeline-list {
+        margin-left: 65px;
+    }
+
+    .timeline-item:not(:last-child)::before {
+        left: -40px;
+    }
+
+    .timeline-item::after {
+        height: 8px;
+        width: 8px;
+        left: -43px;
+    }
+
+}
+
+@media (min-width: 1250px) {
+    .timeline-text {
+        max-width: 700px;
+    }
+}
+
+.timeline-list {
+    display: none;
+    /* Başlangıçta gizli */
+    font-size: var(--fs-6);
+    margin-left: 45px;
+}
+
+.timeline-list.open {
+    display: block;
+    /* Açıldığında görünür */
+}
+
+.title-wrapper {
+    cursor: pointer;
+    /* Tıklanabilir yapıldı */
+}

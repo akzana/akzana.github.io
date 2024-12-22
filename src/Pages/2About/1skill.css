@@ -1,0 +1,70 @@
+/* SkillsCarousel.css */
+.skills-container {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  position: relative;
+}
+
+.skills-content {
+  gap: 10px;
+  display: flex;
+  animation: scroll 15s linear infinite;
+}
+
+.skill-box {
+  word-break: break-word; 
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  background-color: #034301a6;
+  border-radius: 15px;
+  display: flex;
+  padding: 7px 10px 7px 10px;
+  flex-direction: column; 
+  justify-content: start;
+  align-items: center;
+  text-align: center; 
+  transition: transform 0.3s ease-in-out;
+  overflow-wrap: break-word;
+  word-wrap: break-word; 
+  white-space: normal; 
+}
+
+.skill-box img {
+  width: 60%;
+  height: 60%;
+  object-fit: contain;
+  margin-bottom: 5px; 
+}
+
+.skill-box:hover {
+  transform: scale(1.1); 
+}
+
+.skill-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+.skills-container:hover .skills-content {
+  animation-play-state: paused;
+}
+
+.skill-box:hover,
+.skill-box:active {
+  transform: scale(1.2); 
+  border: 3px solid var(--vegas-gold); 
+  cursor: pointer;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
