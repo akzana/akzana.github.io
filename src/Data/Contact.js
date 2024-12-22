@@ -12,7 +12,7 @@ const contact = [
     },
     {
       title: 'Email',
-      value: 'sayhello@akzana.is-a.dev',
+      value: 'akzanaklepsch@outlook.com',
       icon: <MdEmail size={25}/>
     },
     {
