@@ -2,7 +2,7 @@ import profile from '../assets/images/profile.jpg';
 const Profile = {
     name: 'Akzana',
     surname: 'Klepsch',
-    title: 'Softeware Developer',
+    title: 'Software Developer',
     image: profile,
 
 }

@@ -13,7 +13,8 @@ const contact = [
     {
       title: 'Email',
       value: 'akzanaklepsch@outlook.com',
-      icon: <MdEmail size={25}/>
+      icon: <MdEmail size={25}/>,
+      link: 'mailto:akzanaklepsch@outlook.com'
     },
     {
       title: 'Motivation',
