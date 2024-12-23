@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.34ecae8d.css",
-    "main.js": "/static/js/main.e4d69d2c.js",
+    "main.css": "/static/css/main.21e2f075.css",
+    "main.js": "/static/js/main.b5d7a700.js",
     "static/media/PM-Planning_page-0001.jpg": "/static/media/PM-Planning_page-0001.c2f4a84bd13743a9fb33.jpg",
     "static/media/PM-Foundations_page-0001.jpg": "/static/media/PM-Foundations_page-0001.e6609e8252c9823358ae.jpg",
     "static/media/CreatorStreamPage - Frog Stream - localhost.png": "/static/media/CreatorStreamPage - Frog Stream - localhost.016bfd4439a92d6c9423.png",
@@ -96,7 +96,7 @@
     "static/media/bulma.svg": "/static/media/bulma.12ecb7941234000a2fe38a48cbce30da.svg"
   },
   "entrypoints": [
-    "static/css/main.34ecae8d.css",
-    "static/js/main.e4d69d2c.js"
+    "static/css/main.21e2f075.css",
+    "static/js/main.b5d7a700.js"
   ]
 }
