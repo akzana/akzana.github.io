@@ -7,7 +7,7 @@ import { MdGamepad } from "react-icons/md";
 const contact = [
     {
       title: 'Location',
-      value: 'Esqiumalt, BC',
+      value: 'Esquimalt, BC',
       icon: <MdLocationOn size={25}/>
     },
     {
