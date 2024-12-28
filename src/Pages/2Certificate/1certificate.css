@@ -9,6 +9,9 @@
   
   .certificate-item {
     background-color: #222224;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
     border: 3px solid var(--vegas-gold);
     border-radius: 8px;
     overflow: hidden;
