@@ -5,6 +5,7 @@ const skillsData = [
   'CSS',
   'Figma',
   'JavaScript',
+  'TypeScript',
   'Git',
   'MySql',
   'Python',
@@ -14,6 +15,7 @@ const skillsData = [
   'Sass',
   "Jira",
   "ViteJS",
+  
 ]
 
 export { skillsData };
